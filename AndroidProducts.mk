@@ -12,9 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_f5321.mk
+PRODUCT_MAKEFILES :=  \
+    $(LOCAL_DIR)/hentai_kugo_RoW.mk
 
 COMMON_LUNCH_CHOICES += \
-   aosp_f5321-eng \
-   aosp_f5321-userdebug
-
+    hentai_kugo_RoW-eng \
+    hentai_kugo_RoW-userdebug \
+    hentai_kugo_RoW-user \
