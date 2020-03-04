@@ -13,9 +13,13 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES :=  \
-    $(LOCAL_DIR)/hentai_kugo_RoW.mk
-
+    $(LOCAL_DIR)/hentai_kugo_RoW.mk \ 
+    $(LOCAL_DIR)/hentai_kugo_RoW_Go.mk
+    
 COMMON_LUNCH_CHOICES += \
     hentai_kugo_RoW-eng \
     hentai_kugo_RoW-userdebug \
     hentai_kugo_RoW-user \
+    hentai_kugo_RoW_Go-eng \
+    hentai_kugo_RoW_Go-userdebug \
+    hentai_kugo_RoW_Go-user \
