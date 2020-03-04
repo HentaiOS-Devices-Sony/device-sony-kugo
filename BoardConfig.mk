@@ -17,6 +17,8 @@ include device/sony/loire/PlatformConfig.mk
 TARGET_BOOTLOADER_BOARD_NAME := unknown
 ifneq (,$(filter %hentai_kugo_RoW,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := F5321
+else ifneq (,$(filter %hentai_kugo_RoW_Go,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := F5321
 else
 TARGET_BOOTLOADER_BOARD_NAME := F5321
 $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
